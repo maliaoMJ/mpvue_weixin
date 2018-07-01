@@ -1,0 +1,113 @@
+
+.carousel.data-v-e254de30 {
+  width: 100%;
+  height: 320rpx;
+  margin-top: 60rpx;
+  z-index: 5;
+}
+.carousel.data-v-663aaed2 {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+.carousel .swiper.data-v-663aaed2 {
+  width: 100%;
+  height: 100%;
+}
+.carousel .swiper .swiper_content_box.data-v-663aaed2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.carousel ._img.data-v-663aaed2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.carousel .tag.data-v-663aaed2 {
+  position: absolute;
+  bottom: 18rpx;
+  right: 0;
+  height: 44rpx;
+  background: #012d57;
+  color: #fff;
+  font-size: 24rpx;
+  width: auto;
+  padding: 0 12rpx;
+  line-height: 44rpx;
+  text-align: center;
+  border-top-left-radius: 22rpx;
+  border-bottom-left-radius: 22rpx;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+}
+.carousel .tag.recommend.data-v-663aaed2 {
+  background: red;
+}
+.carousel .tag.offical.data-v-663aaed2 {
+  background: #012d57;
+}
+.carousel .tag.hot.data-v-663aaed2 {
+  background: #24ccf7;
+}
+.select_header.data-v-04dfdb53 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 60rpx;
+  background: #012d57;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  font-size: 26rpx;
+  line-height: 60rpx;
+}
+.page_header.data-v-04dfdb53 {
+  display: block;
+  width: 40%;
+  box-sizing: border-box;
+  padding-left: 5rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.input_box.data-v-04dfdb53 {
+  width: 30%;
+  height: 50rpx;
+  margin-top: 10rpx;
+  display: block;
+  border-radius: 24rpx;
+  border-width: 0;
+}
+.search_input.data-v-04dfdb53 {
+  border-radius: 24rpx;
+  border-width: 0;
+  outline: none;
+  background: #fff;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 10rpx;
+  color: #aaa;
+  line-height: 50rpx;
+  font-size: 24rpx;
+}
+.city_name.data-v-04dfdb53 {
+  flex: 1;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 20rpx;
+}

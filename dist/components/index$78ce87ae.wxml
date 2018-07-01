@@ -1,0 +1,10 @@
+<import src="pageheader$6f5801ce" />
+<import src="carousel$1c7905dd" />
+<template name="index$78ce87ae">
+  <view class="_div data-v-e254de30 container">
+    <template data="{{...$root[$kk+'0'], $root}}" is="pageheader$6f5801ce"></template>
+    <view class="_div data-v-e254de30 carousel">
+      <template data="{{...$root[$kk+'1'], $root}}" is="carousel$1c7905dd"></template>
+    </view>
+  </view>
+</template>

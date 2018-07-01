@@ -1,0 +1,13 @@
+<template name="pageheader$6f5801ce">
+  <view class="_div data-v-04dfdb53 select_header">
+    <picker value="{{index}}" bindchange="handleProxy" range="{{shopArrs}}" class="_picker data-v-04dfdb53 page_header" placeholder-class="input_placeholder" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+      <view class="_div data-v-04dfdb53 supermarket"> {{shopArrs[index]}} </view>
+    </picker>
+    <view class="_div data-v-04dfdb53 input_box">
+      <input wx:if="{{false}}" class="_input data-v-04dfdb53 search_input" type="text" placeholder="关键词" catchtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" />
+    </view>
+    <view class="_div data-v-04dfdb53 city_name">
+      <label class="_span data-v-04dfdb53">北京市海淀区</label>
+    </view>
+  </view>
+</template>

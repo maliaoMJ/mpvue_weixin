@@ -1,0 +1,22 @@
+<template name="carousel$1c7905dd">
+  <view class="_div data-v-663aaed2 carousel">
+    <swiper class="_swiper data-v-663aaed2 swiper" indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{indicatorActiveColor}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}"
+      previous-margin="{{previousMargin}}" next-margin="{{nextMargin}}" wx:if="{{data.length > 1}}">
+      <swiper-item class="_swiper-item data-v-663aaed2 swiper_content_box" wx:key="index" key="{{index}}" wx:for="{{data}}" wx:for-index="index" wx:for-item="img">
+        <image bindtap="handleProxy" src="{{img.url}}" alt="{{img.title ? img.title : '' }}" data-eventid="{{'0-'+index}}" data-comkey="{{$k}}" class="_img data-v-663aaed2"></image>
+        <view class="_div data-v-663aaed2 tag recommend" wx:if="{{img.tag}}">{{img.tag}}</view>
+      </swiper-item>
+    </swiper>
+    <view class="_div data-v-663aaed2 swiper" wx:elif="{{data.length === 1}}">
+      <view class="_div data-v-663aaed2 swiper_content_box">
+        <image src="{{data[0].url}}" alt="{{data[0].title ? data[0].title : ''}}" class="_img data-v-663aaed2"></image>
+        <view class="_div data-v-663aaed2 tag hot" wx:if="{{img.tag}}">{{img.tag}}</view>
+      </view>
+    </view>
+    <view class="_div data-v-663aaed2 swiper" wx:else>
+      <view class="_div data-v-663aaed2 swiper_content_box">
+        <image src="http://img3.imgtn.bdimg.com/it/u=2696367453,3403235068&fm=11&gp=0.jpg" alt class="_img data-v-663aaed2"></image>
+      </view>
+    </view>
+  </view>
+</template>
